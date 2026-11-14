@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Daily Listing Video: Full Setup</title>
+<style>
+  :root { --ink:#14202e; --muted:#5a6a7a; --accent:#0f4c81; --card:#f4f7fa; --line:#dde5ec; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.55; background:#fff; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 30px; line-height:1.2; margin: 0 0 8px; }
+  .sub { color: var(--muted); font-size: 17px; margin: 0 0 24px; }
+  h2 { font-size: 21px; margin: 0 0 10px; }
+  h3 { font-size: 16px; margin: 18px 0 6px; }
+  p, li { font-size: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px; margin: 0 0 18px; }
+  .step-num { display:inline-block; background: var(--accent); color:#fff; font-weight:700; border-radius: 999px; padding: 2px 12px; font-size: 14px; margin-bottom: 10px; }
+  ol, ul { padding-left: 22px; margin: 8px 0; }
+  li { margin: 5px 0; }
+  code, .prompt { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .prompt { background:#0e1a26; color:#eaf2f9; border-radius: 10px; padding: 16px 18px; font-size: 14.5px; line-height: 1.6; white-space: pre-wrap; margin: 12px 0; }
+  .note { border-left: 4px solid var(--accent); background:#eef4fa; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 14px 0; }
+  .note p { margin: 0; font-size: 15px; }
+  .small { color: var(--muted); font-size: 14px; }
+  footer { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 16px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>The Daily Listing Video: Full Setup</h1>
+<p class="sub">The exact setup from the video: a short video about the hottest new listing in your market, posted every day, without you filming anything. Four jobs, four tools, zero filming.</p>
+
+<div class="card">
+<h2>What you need</h2>
+<ul>
+<li>A free <strong>Zillow</strong> account (the finder)</li>
+<li>A <strong>Claude</strong> account at claude.ai (the writer)</li>
+<li>A <strong>HeyGen</strong> account (your avatar and voice)</li>
+<li>A <strong>Metricool</strong> account (the poster)</li>
+</ul>
+<p class="small">Each tool has a free tier you can test with. Running this daily uses the basic paid plans. One time setup takes about an hour. After that, the daily run takes about 15 minutes.</p>
+</div>
+
+<div class="card">
+<span class="step-num">STEP 1</span>
+<h2>Zillow finds the listing</h2>
+<ol>
+<li>Go to <strong>zillow.com</strong> and sign in (free account).</li>
+<li>Search your market: your city or ZIP codes, For Sale, and set the filters you care about (price range, property type).</li>
+<li>Sort by <strong>Newest</strong> so the freshest listings sit on top.</li>
+<li>Click <strong>Save search</strong> and name it, for example "New listings, my market."</li>
+<li>Turn on <strong>email alerts</strong> for that saved search and choose <strong>Instant</strong>. The moment a matching listing hits the market, Zillow emails you.</li>
+</ol>
+<p>That alert is the connection. Every morning, your inbox holds the newest listings in your market, already filtered. Pick the hottest one: the best combination of price, location, and one standout feature people will stop scrolling for.</p>
+<div class="note"><p><strong>Your morning move:</strong> open the alert email, open the listing, and copy the facts: street area or neighborhood, price, beds, baths, square feet, days on market, and the one standout feature (pool, view, renovated kitchen, lot size). You will paste these into Step 2.</p></div>
+</div>
+
+<div class="card">
+<span class="step-num">STEP 2</span>
+<h2>Claude writes the talk track</h2>
+<ol>
+<li>Open <strong>claude.ai</strong> and start a new chat.</li>
+<li>Paste the prompt below and fill in the listing facts you copied.</li>
+<li>Read the result once against the listing. If a fact is wrong or missing, say so in plain words ("the price is 425,000, not 450,000") and it will fix it.</li>
+</ol>
+<div class="prompt">Write a talk track for a 35 second real estate listing video. About 90 words, plain spoken language, no hype words like "stunning" or "boasts."
+
+Listing facts:
+Neighborhood: [fill in]
+Price: [fill in]
+Beds and baths: [fill in]
+Square feet: [fill in]
+Standout feature: [fill in]
+
+Structure: first line names the neighborhood and the standout feature. Then the price and the beds. Then one line on who this home fits. Last line: "Message me for a tour."</div>
+<div class="note"><p><strong>Rule that keeps you safe:</strong> the AI only knows what you paste. If a fact is not in the listing, it does not go in the video. Check every script before you record it.</p></div>
+</div>
+
+<div class="card">
+<span class="step-num">STEP 3</span>
+<h2>HeyGen records it with your avatar</h2>
+<ol>
+<li>Go to <strong>heygen.com</strong> and create your avatar. You record yourself talking to a camera for two to three minutes, once. HeyGen builds a digital twin from it.</li>
+<li>Clone your voice: read the short script HeyGen gives you (about a minute). Now the avatar speaks in your voice.</li>
+<li>For each video: create a new video, pick <strong>vertical (9:16)</strong>, choose your avatar and your voice, and paste the talk track from Step 2.</li>
+<li>Generate, then watch it once. Names and numbers are where avatars stumble. If it mispronounces a street name, spell the word the way it sounds in the script and generate again.</li>
+<li>Download the finished video.</li>
+</ol>
+<p class="small">The avatar only ever says what you paste into it. Your face, your voice, your words, no camera day.</p>
+</div>
+
+<div class="card">
+<span class="step-num">STEP 4</span>
+<h2>Metricool posts it everywhere</h2>
+<ol>
+<li>Go to <strong>metricool.com</strong> and connect your accounts: Instagram, TikTok, YouTube, Facebook, and LinkedIn. You do this once.</li>
+<li>Upload the video from Step 3 and write one caption with the listing facts and your contact call to action.</li>
+<li>Post it right away, or schedule it for the morning, when your market is scrolling. Most agents on this setup schedule it for about 7 AM.</li>
+</ol>
+<h3>The daily rhythm, once it is set up</h3>
+<ol>
+<li>Zillow alert lands. Pick the hottest listing (2 minutes).</li>
+<li>Paste the facts into Claude. Check the talk track (5 minutes).</li>
+<li>Paste it into HeyGen. Generate and download (5 minutes).</li>
+<li>Upload to Metricool. Post or schedule (3 minutes).</li>
+</ol>
+<p>A listing video every day, and you never touched a camera.</p>
+</div>
+
+<div class="card">
+<h2>Keep it clean</h2>
+<ul>
+<li>The hottest listing will often be another agent's listing. Credit the listing brokerage in your caption, and follow your MLS and state rules for advertising listings that are not yours. Rules vary by market; when in doubt, ask your broker.</li>
+<li>Never let a generated script add facts. No invented square footage, no invented features.</li>
+<li>Your avatar is your face. Only publish words you would say yourself on camera.</li>
+</ul>
+</div>
+
+<footer>
+<p class="small">From Serge Osaulenko. I build and fix AI systems. Free weekly AI seminars and more setups like this one at <a href="https://selenko.com">selenko.com</a>.</p>
+</footer>
+
+</div>
+</body>
+</html>
